@@ -40,6 +40,10 @@
     margin-left: 1rem;
   }
 
+  .header ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   @media (max-width: 50em) {
     .header{
       flex-direction: column;
@@ -57,8 +61,4 @@
     }
 
       
-  .header ul {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
   }
